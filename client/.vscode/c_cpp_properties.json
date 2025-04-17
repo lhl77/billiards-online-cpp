@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "windows-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/thirdparty-lib/curl/include",
+                "${workspaceFolder}/thirdparty-lib/curl/lib",
+                "${workspaceFolder}/thirdparty-lib/openssl/include",
+                "${workspaceFolder}/thirdparty-lib/openssl/lib",
+                "${workspaceFolder}/thirdparty-lib/easyX/include",
+                "${workspaceFolder}/thirdparty-lib/easyX/lib"
+            ],
+            "compilerPath": "D:/App/TDM-GCC/bin/gcc.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64",
+            "compilerArgs": [
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
