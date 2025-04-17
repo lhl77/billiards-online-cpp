@@ -73,7 +73,7 @@ location / {
     }
 ```
 6. 设置客户端，在`client/include/game_config.h`中修改`API_URL`为你的域名，然后编译即可。
-7. 编译使用的TDM-GCC，需要修改`.vscode/task.json`到你的编译器目录（暂时没做makefile）
+7. 在`client`目录下运行`make`编译，编译好的文件在`build`文件夹中
 
 ### 使用到的开源库
 
